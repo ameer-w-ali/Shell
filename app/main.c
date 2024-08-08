@@ -153,7 +153,7 @@ int lsh_execute(char **args) {
   return lsh_launch(args);
 }
 
-void lsh_loop(void) {
+void shell(void) {
   char *line;
   char **args;
   int status;
@@ -170,7 +170,6 @@ void lsh_loop(void) {
 }
 
 int main(int argc, char **argv) {
-  lsh_loop();
-
+  shell();
   return EXIT_SUCCESS;
 }
