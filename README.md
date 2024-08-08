@@ -32,3 +32,5 @@ This script will:
 1. Compile the source files in the app directory.
 2. Output the compiled executable to app/shell.
 3. Execute the app/shell.
+
+NOTE: Currently works in linux only
